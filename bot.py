@@ -2,7 +2,7 @@ import telebot
 import random
 import string
 
-TOKEN = '7243602173:AAHzqBdzqjxCKfxvhz-IxFmJlzQTuY7UzOA'
+TOKEN = ''
 bot = telebot.TeleBot(TOKEN)
 
 bot = telebot.TeleBot(TOKEN)
