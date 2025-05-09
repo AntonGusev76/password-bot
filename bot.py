@@ -5,6 +5,10 @@ import string
 TOKEN = '7243602173:AAHzqBdzqjxCKfxvhz-IxFmJlzQTuY7UzOA'
 bot = telebot.TeleBot(TOKEN)
 
+bot = telebot.TeleBot(TOKEN)
+bot.remove_webhook()
+
+
 def generate_password(length=12):
     chars = string.ascii_letters + string.digits + string.punctuation
     return ''.join(random.choice(chars) for _ in range(length))
